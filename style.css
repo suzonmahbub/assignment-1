@@ -10,6 +10,23 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+.primary-btn {
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.primary-btn:hover {
+    background-color: #4E15FF;
+}
 header {
     background-image: url(./Assets/Hero-bg.png);
 }
@@ -35,22 +52,6 @@ nav {
     text-transform: uppercase;
 }
 
-.sign-up a {
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: #4E47FF;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    transition: .3s;
-}
-
-.sign-up a:hover {
-     background-color: #4E22FF;
-}
-
 .header-container h1 {
     font-size: 65px;
     text-align: center;
@@ -64,18 +65,37 @@ nav {
     padding-top: 36px;
     padding-bottom: 160px;
 }
-.stay-focus-btn {
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-    background-color: #4E47FF;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: .3s;
+
+
+/* action section */
+.action-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.stay-focus-btn:hover {
-    background-color: #4E22FF;
+.action-content {
+    max-width: 520px;
+}
+
+.action-content-title {
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #252432;
+}
+
+.action-content-description {
+    font-size: 24px;
+    line-height: 30px;
+    color: #252432;
+    margin-top: 16px;
+    padding-bottom: 20px;
+}
+
+
+.action-image img {
+    border-radius: 48px;
 }
