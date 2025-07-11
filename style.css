@@ -9,7 +9,9 @@
 body {
     font-family: "Raleway", sans-serif;
 }
-
+.text-primary {
+    color: #4E47FF;
+}
 .primary-btn {
     padding: 12px 36px;
     border: none;
@@ -98,4 +100,54 @@ nav {
 
 .action-image img {
     border-radius: 48px;
+}
+
+/* Productive user */
+.productive-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #e5e7ff;
+    border-radius: 24px;
+    padding: 50px 136px;
+    margin-top: 110px;
+}
+
+.productive-title {
+    font-size: 38px;
+    text-align: center;
+}
+
+.productive-users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.active-user h4 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.active-user,.focus-session,.satisfaction p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #9fa0b1;
+}
+.focus-session h4 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+
+
+.satisfaction h4 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
 }
